@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media only screen and (min-width: 992px) {
+    
+    #banner {
+        
+        padding-top: 56.25%;
+        margin-top: 50px;
+        background: url('./img/welcomethanhhoa.png') top center / cover no-repeat;
+        background-repeat: no-repeat;
+       
+    }
+    #location-text {
+        margin-top: 100px;
+    }
+    
+  }
+  @media only screen and (min-width: 769px) and (max-width: 991px) {
+    /* For tablets: */
+    #banner {
+        visibility: hidden;
+    }
+    #location {
+        padding-top:100px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobiles: */
+    #nav-text {
+        font-size: 65%;
+    }
+    #location-text {
+        margin-top: 100px;
+    }
+    #banner {
+        visibility: hidden;
+    }
+  }
+video {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.location {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    
+}
+.location:hover {
+    border-color: #f1f1f1;
+    opacity: 0.7;
+}
+#location h1 {
+    font-family: 'Merriweather', serif;
+}
+#location p {
+    text-indent: 10%;
+}
+.location-item {
+    font-size: 15pt;
+}
+.row-location {
+    padding-bottom:10%
+}
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  
+  /* On hover, the color of .btn will transition to white with black text */
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+
+
+#contact {
+    background-color: #d0d3d9;
+    padding: 5% 10%;
+}
+#contact > h3 {
+    font-family: 'Merriweather', serif;
+}
+#contact > h1 {
+    font-family: 'Merriweather', serif;
+}
+ul > li {
+    font-size: 13pt;
+}
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding: 5% 0%;
+  }
